@@ -25,7 +25,7 @@ function zoomOut() {
 }
 
 function init() {
-	var svgUrl = "2550.svg";
+	var svgUrl = "2550.svg.gz";
 	
 	$.get(svgUrl)
 	 .then(function(response) {
