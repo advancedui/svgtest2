@@ -1,0 +1,33 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+#svgContainer {
+	height: 450px;
+	width: 90%;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+g {
+	stroke-width: 1.5px !important;
+}
